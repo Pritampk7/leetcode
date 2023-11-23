@@ -2,7 +2,7 @@ class Solution:
     def distinctValues(self, nums: list[int]) -> int:
         nums.sort()
         distinct = 1
-        print(sorted(nums))
+
         for i in range(1, len(nums)):
             if nums[i] != nums[i - 1]:
                 distinct += 1
