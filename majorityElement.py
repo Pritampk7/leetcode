@@ -1,7 +1,6 @@
 def MajorityElement(nums: list[int]):
     # nums = [3,2,3,3]
     # output = 3
-    global num
     counter = 1
     nums.sort()
     solution = 1

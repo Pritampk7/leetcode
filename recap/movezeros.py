@@ -16,4 +16,4 @@ def movezero2(arr):
     return arr
 
 
-print(movezero2([1, 0, 2, 0, 3]))
+print(movezero2([1, 0, 3, 0, 2]))
