@@ -15,6 +15,7 @@ def maxsumsubarry2(arr: list[int]) -> int:
             currentSum = 0
         currentSum += num
         currentMax = max(currentSum, currentMax)
+        print(currentSum)
     return currentMax
 
 

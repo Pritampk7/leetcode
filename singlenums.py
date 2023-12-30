@@ -1,4 +1,5 @@
 nums = [9, 1, 2, 1, 2, 7]
+nums = [1, 2, 1, 2, 3, 5, 6]
 
 
 def check(nums, i):
@@ -15,4 +16,6 @@ def singlenumber(nums):
     for i in range(len(nums)):
         if check(nums, i):
             return nums[i]
+
+
 print(singlenumber(nums))

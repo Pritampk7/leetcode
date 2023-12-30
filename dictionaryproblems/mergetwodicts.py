@@ -23,8 +23,20 @@ def merge2dicts(dict1, dict2):
 
 # correct solution
 def mergedicts(dict1, dict2):
-    merge = {**dict1, **dict2}
+    # merge = {**dict1, **dict2}
+    merge = dict()
+    for key, value in dict1.items():
+        if key in merge:
+            merge[key] = dict1.get(value)
+            merge[key] = dict2.get(value)
+        else:
+            merge[key] = value
+
+    #merge = {key: value for key, value in zip(dict1.items(), dict2.items()) }
     return merge
 
 
-print(merge2dicts(dict1, dict2))
+print(mergedicts(dict1, dict2))
+t = (10,11,12)
+#print(t[:1])
+print(*t)

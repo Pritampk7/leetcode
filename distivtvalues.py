@@ -10,5 +10,5 @@ class Solution:
 
 
 obj = Solution()
-s = obj.distinctValues([8, 0, 6, 1, 9, 5])
+s = obj.distinctValues([8, 0, 6, 1, 1, 7, 9, 5])
 print(s)

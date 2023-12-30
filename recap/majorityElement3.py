@@ -1,5 +1,6 @@
 def majorityelement3(arr):
     res, count = 0, 0
+
     for num in arr:
         if count == 0:
             res = num

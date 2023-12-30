@@ -5,7 +5,6 @@ def merge():
     arr2 = [2, 5, 6]
 
     last = m + n - 1
-    # expected arr1 = [1,1,2,2,3,4,4,5]
 
     while m > 0 and n > 0:
         if arr1[m - 1] > arr2[n - 1]:

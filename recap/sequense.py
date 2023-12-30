@@ -1,4 +1,4 @@
-string = "abcabcabc"
+string = "abcabcab"
 
 
 def repeatedSubstringPattern(s: str) -> bool:

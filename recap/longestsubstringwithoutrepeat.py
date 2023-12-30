@@ -12,5 +12,5 @@ def longestsubsrting(s):
     return res, charset
 
 
-s = 'abcdabcbb'
+s = 'abracadabra'
 print(longestsubsrting(s))

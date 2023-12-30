@@ -11,4 +11,4 @@ def maxones(nums: list[int]) -> int:
     return maxocc
 
 
-print(maxones([1, 1, 0, 1, 1, 1]))
+print(maxones([1, 1, 0, 1, 1]))

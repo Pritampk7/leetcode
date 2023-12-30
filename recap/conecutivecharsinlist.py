@@ -1,4 +1,4 @@
-input_arr = ["flower", "flow", "f"]
+input_arr = ["flower", "flow", "flow"]
 
 
 def LCM(str1, str2):

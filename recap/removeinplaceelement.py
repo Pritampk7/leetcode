@@ -7,5 +7,7 @@ class Solution:
                 arr[l] = arr[r]
                 l += 1
         return l
+
+
 obj = Solution()
 print(obj.remove([0, 1, 2, 2, 3, 0, 4, 2], target=2))

@@ -11,10 +11,6 @@ def movezero(arr):
 
     return arr
 
-
-#print(arr)
-
-
 def movezero2(arr):
     last = 0
     for right in range(len(arr)):

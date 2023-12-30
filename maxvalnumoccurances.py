@@ -14,4 +14,4 @@ def countMaxvalocc(nums: list[int]) -> list:
     return [maxVal, counter]
 
 
-print(countMaxvalocc(nums=[2, 7, 7, 3, 9, 9, 9]))
+print(countMaxvalocc(nums=[2, 7, 7, 3, 9, 9, 9, 9]))
